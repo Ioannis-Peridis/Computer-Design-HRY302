@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/User/Desktop/projects/logikh/logikhERG/FASH3/CONTROL_testBench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="control_testbench" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/control_testbench/instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/alu_zero_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_zero_control</obj_property>
+      <obj_property name="ObjectShortName">alu_zero_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/pc_sel_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_sel_control</obj_property>
+      <obj_property name="ObjectShortName">pc_sel_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/pc_lden_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden_control</obj_property>
+      <obj_property name="ObjectShortName">pc_lden_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/immext_control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immext_control[1:0]</obj_property>
+      <obj_property name="ObjectShortName">immext_control[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/rf_wrdata_sel_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel_control</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/rf_b_sel_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel_control</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/rf_wren_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren_control</obj_property>
+      <obj_property name="ObjectShortName">rf_wren_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/alu_bin_sel_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_bin_sel_control</obj_property>
+      <obj_property name="ObjectShortName">alu_bin_sel_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/alu_func_control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_func_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/byteop_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">byteop_control</obj_property>
+      <obj_property name="ObjectShortName">byteop_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_testbench/mem_wren_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren_control</obj_property>
+      <obj_property name="ObjectShortName">mem_wren_control</obj_property>
+   </wvobject>
+</wave_config>

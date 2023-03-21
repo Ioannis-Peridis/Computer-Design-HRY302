@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/User/Desktop/projects/logikh/logikhERG/FASH1/RF_testBench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="rf_testbench" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/rf_testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/adr1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adr1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/adr2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adr2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/dout1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/dout2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/awr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_testbench/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

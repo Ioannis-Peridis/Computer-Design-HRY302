@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/User/Desktop/projects/logikh/logikhERG/FASH2/EXSTAGE_testBench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="exstage_testbench" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/exstage_testbench/alu_bin_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_bin_sel</obj_property>
+      <obj_property name="ObjectShortName">alu_bin_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exstage_testbench/alu_zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_zero</obj_property>
+      <obj_property name="ObjectShortName">alu_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exstage_testbench/alu_cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_cout</obj_property>
+      <obj_property name="ObjectShortName">alu_cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exstage_testbench/alu_ovf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_ovf</obj_property>
+      <obj_property name="ObjectShortName">alu_ovf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exstage_testbench/rf_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exstage_testbench/rf_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exstage_testbench/immed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exstage_testbench/alu_func" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/exstage_testbench/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+</wave_config>

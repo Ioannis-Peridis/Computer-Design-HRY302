@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/User/Desktop/projects/logikh/logikhERG/FASH2/MEMSTAGE_testBench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="memstage_testbench" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/memstage_testbench/byteop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">byteop</obj_property>
+      <obj_property name="ObjectShortName">byteop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_testbench/mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren</obj_property>
+      <obj_property name="ObjectShortName">mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_testbench/alu_mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mem_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_testbench/mem_datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_datain[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_testbench/mm_rddata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_rddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_rddata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_testbench/mem_dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_dataout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_testbench/mm_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_testbench/mm_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_wren</obj_property>
+      <obj_property name="ObjectShortName">mm_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_testbench/mm_wrdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_wrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_wrdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

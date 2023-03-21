@@ -1,0 +1,6 @@
+adders->        add4+tb,adder32bit_secondDigitMulx4 +tb
+conventer->     convnter+tb
+decoder->       decoder+tb
+ifstage_ram->  ifstage_ram+tb
+memstage_ram->  memstage_ram+tb
+muxes->         mux2x1+tb,mux32x5+tb,mux2x1_5bitInput+tb
